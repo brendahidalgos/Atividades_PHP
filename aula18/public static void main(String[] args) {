@@ -1,0 +1,22 @@
+public static void main(String[] args) {
+
+        Scanner teclado = new Scanner(System.in);
+        int posicao = 0;
+        long vec[] = new long[10];
+        long menor = Integer.MAX_VALUE; // Maior valor, porque qualquer valor vai ser menor que ele;  
+
+        for (int x = 0; x < vec.length; x++) {
+            System.out.println("Digite o " + (x + 1) + "º de " + vec.length + " números:");
+            vec[x] = teclado.nextLong();
+
+            if (vec[x] < menor) {
+
+
+                menor = vec[x];
+                posicao = x;
+            }
+
+        }
+
+        System.out.println("O menor número digitado foi: " + menor + ""+" e sua posição é:" + posicao);
+    }

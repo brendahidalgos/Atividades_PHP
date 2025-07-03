@@ -1,0 +1,82 @@
+/*configurando o menu*/
+nav#menu {
+	display:block; /*fazer com que o menu flutue*/
+
+}
+nav#menu  ul{
+	list-style: none; /*sumir com os marcadores*/
+	text-transform: uppercase; /* letras em maiusculas */
+	position: absolute; /*mexer em qualquer posição da tela*/
+	top: -20px; /* posicionamento ao topo*/
+	left:20px;/* direcionamento */ 
+}
+nav#menu li{
+	display: inline-block; /*itens do menu colocados horizontalmente em blocos*/
+	background-color: #dddddd; /* cor de fundo cinza claro */
+	padding: 10px; /* espaço entre um e outro */
+	margin: 2px; /* espaço fora do objeto */
+	transition:background-color 1s; /*tempo se transição, mudando de uma cor para a outra */	
+}
+nav#menu li:hover { /*quando passar o mouse */
+	background-color:#606060; /*colocando a segunda cor do menu quando se passa o mouse */
+}
+nav#menu h1 {
+	display:none; /*esconder o item de texto "Menu Principal" */
+}
+nav#menu a{
+	color: black; /*colocar os link em cor preta*/
+	text-decoration:none;/*tirar a lista*/
+}
+nav#menu a:hover{
+	color: #ffffff; /*colocando cor ao texto quando passar o mouse*/
+	text-decoration:underline; /* quando passar o mouse no link do menu ficar com o traço em baio*/
+}
+/*carrousel*/
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+};}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+} 
+

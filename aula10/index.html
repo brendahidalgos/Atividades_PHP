@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>
+<body bgcolor="#A9A9A9">
+<center>
+<!--menu-->
+<nav id="menu"> <!-- nav funciona como menu de navegação-->
+<h1>Menu Principal</h1>
+<ul type="disc">
+<li><a href="index.html"> Home </a></li>
+<li><a href="sobre.html"> Sobre </a></li>
+</ul>
+</nav><br>
+<!--tabela-->
+<br><table height="50%" width="50%" cellspacing="5px" cellpadding="10" bgcolor="white">
+<td colspan="5"><img src="nome.jpg" width="1200" height="400"></td>
+	 <tr>
+	 <td colspan="1" rowspan="2"><img src="img3.jpg" align="left" width="290" height="680"></td>
+	 <td colspan="3">
+	 <!--slides-->
+<div class="slider">
+<ul>
+<li>
+  <img src="imagem1.jpg" alt="">
+ </li>
+<li>
+  <img src="imagem2.jpg" alt="">
+</li>
+<li>
+  <img src="imagem1.jpg" alt="">
+</li>
+<li>
+  <img src="imagem2.jpg" alt="">
+</li>
+</ul>
+</div></td>
+<tr>
+	<td colspan="4">
+		<!--formulario php-->
+	<form method="POST" action="form.php"><center>
+		<fieldset bgcolor="#A9A9A9">
+		<h2>Para se Inscrever escolha uma das opções abaixo:</h2>
+			<p><input type="radio" name="escolha" value="cliente"> Cliente</p>
+			<p><input type="radio" name="escolha" value="funcionario"> Funcionário</p>
+			<p><input type="radio" name="escolha" value="fornecedor"> Fornecedor</p>
+			<p><input type="radio" name="escolha" value="produto"> Produto</p>
+			<p><input type="radio" name="escolha" value="usuario"> Usuário</p>
+			<p><input type="submit" value="OK"></p>
+		</fieldset>
+	</form>
+	</td>
+	<tr>
+	</table>
+</body>
+</html>
