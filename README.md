@@ -1,2 +1,2 @@
 # Atividades_PHP
-Atividades do meu curso de técnico de Informática para Internet, criado em 2017.
+Atividades do meu curso técnico de Informática para Internet, criado em 2017.
