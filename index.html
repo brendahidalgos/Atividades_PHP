@@ -4,59 +4,128 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfólio de Aulas</title>
+  <style>       
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
+        header{
+            padding: 50px;  
+            background-color: gray;          
+        }
+        header > h1, p{
+            color: white;
+        }
+        main{
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        div.coluna{
+            flex: 1 1 200px; 
+            max-width: 350px;            
+        }
+        button{
+            background-color: gray;
+            width: auto;
+            height: 30px;
+            padding: 5px;
+            margin-bottom: 5px;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.184);
+        }
+        button > a{
+            text-decoration: none;
+            color: white;
+        }
+        button:hover{
+            background-color: green;
+        }
+        footer{
+            background-color: gray;
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+        footer > a{
+            text-decoration: none;
+            color: white;
+        }        
+    </style>
 </head>
 <body>
-  <h1>Portfólio de Sites – Aulas 1 a 18</h1>
-  <ul>
-    <li><a href="docs/aula1/index.html">Aula 1</a></li>
-    <li><a href="docs/aula2/index.html">Aula 2</a></li>
-    <li><a href="docs/aula3/1 aula3/index.html">Aula 3.1</a></li>
-        <li><a href="docs/aula3/2 aula3/index.html">Aula 3.2</a></li>
-        <li><a href="docs/aula3/3 aula 3/index.html">Aula 3.3</a></li>
-        <li><a href="docs/aula3/4 aula3/index.html">Aula 3.4</a></li>
-        <li><a href="docs/aula3/5 aula3/index.html">Aula 3.5</a></li>
-    <li><a href="docs/aula4/1 aula4/index.html">Aula 4.1</a></li>
-        <li><a href="docs/aula4/2 aula4/index.html">Aula 4.2</a></li>
-        <li><a href="docs/aula4/3 aula4/index.html">Aula 4.3</a></li>
-        <li><a href="docs/aula4/3 aula4/index.html">Aula 4.4</a></li>
-        <li><a href="docs/aula4/4 aula4/index.html">Aula 4.5</a></li>
-        <li><a href="docs/aula4/5 aula4/index.html">Aula 4.6</a></li>
-        <li><a href="docs/aula4/6 aula4/index.html">Aula 4.7</a></li>
-    <li><a href="docs/aula5/exercicio1/index.html">Aula 5.1</a></li>
-        <li><a href="docs/aula5/exercicio2/index.html">Aula 5.2</a></li>
-        <li><a href="docs/aula5/exercicio3/index.html">Aula 5.3</a></li>
-    <li><a href="docs/aula6/exercicio1/index1.html">Aula 6.1</a></li>
-        <li><a href="docs/aula6/exercicio1/index1.html">Aula 6.2</a></li>
-        <li><a href="docs/aula6/exercicio2/index2.html">Aula 6.3</a></li>
-        <li><a href="docs/aula6/exercicio3/index3.html">Aula 6.4</a></li>
-        <li><a href="docs/aula6/exercicio4/index4.html">Aula 6.5</a></li>
-        <li><a href="docs/aula6/exercicio5/index5.html">Aula 6.6</a></li>
-    <li><a href="docs/aula7/index.html">Aula 7</a></li>
-    <li><a href="docs/aula8/index.html">Aula 8</a></li>
-    <li><a href="docs/aula9/exercicio1.html">Aula 9.1</a></li>
-        <li><a href="docs/aula9/exercicio2.html">Aula 9.2</a></li>
-        <li><a href="docs/aula9/exercicio3.html">Aula 9.3</a></li>
-        <li><a href="docs/aula9/exercicio4.html">Aula 9.4</a></li>
-        <li><a href="docs/aula9/switch.html">Aula 9.5</a></li>
-    <li><a href="docs/aula10/index.html">Aula 10</a></li>
-    <li><a href="docs/aula11/index.html">Aula 11</a></li>
-    <li><a href="docs/aula12/exercicio3/index.html">Aula 12.1</a></li>
-        <li><a href="docs/aula12/exercicio5/index.html">Aula 12.2</a></li>
-    <li><a href="docs/aula13/exercicio1/index.html">Aula 13</a></li>
-    <li><a href="docs/aula14/while3/index.html">Aula 14</a></li>
-    <li><a href="docs/aula15/ARRAY2/exercicio3.html">Aula 15.1</a></li>
-        <li><a href="docs/aula15/ARRAY2/exercicio4.html">Aula 15.2</a></li>
-        <li><a href="docs/aula15/ARRAY2/exercicio5.html">Aula 15.3</a></li>
-    <li><a href="docs/aula16/exercicio2/index.html">Aula 16.1</a></li>
-        <li><a href="docs/aula16/exercicio5/exercicio5.html">Aula 16.2</a></li>
-    <li><a href="docs/aula17/exercicio1/index.html">Aula 17.1</a></li>
-        <li><a href="docs/aula17/exercicio1/index.html">Aula 17.2</a></li>
-        <li><a href="docs/aula17/exercicio2/index.html">Aula 17.3</a></li>
-        <li><a href="docs/aula17/exercicio3/index.html">Aula 17.4</a></li>
-        <li><a href="docs/aula17/exercicio4/index.html">Aula 17.5</a></li>
-        <li><a href="docs/aula17/exercicio5/index.html">Aula 17.6</a></li>
-        <li><a href="docs/aula17/exercicio8/index.html">Aula 17.7</a></li>
-    <li><a href="docs/aula18/index.html">Aula 18</a></li>
-  </ul>
+    <header>
+        <h1>Atividades ETEC em PHP</h1>
+        <p>Exercícios feitos 👇🏻</p>
+    </header>
+    <main style="display: flex; flex-wrap: wrap; gap: 30px;">
+        <div class="coluna">
+        <button><a href="docs/aula1/index.html">Aula 1</a></button><br>
+        <button><a href="docs/aula2/index.html">Aula 2</a></button><br>
+        <button><a href="docs/aula3/1 aula3/index.html">Aula 3.1</a></button><br>
+        <button><a href="docs/aula3/2 aula3/index.html">Aula 3.2</a></button><br>
+        <button><a href="docs/aula3/3 aula 3/index.html">Aula 3.3</a></button><br>
+        <button><a href="docs/aula3/4 aula3/index.html">Aula 3.4</a></button><br>
+        <button><a href="docs/aula3/5 aula3/index.html">Aula 3.5</a></button><br>
+        <button><a href="docs/aula4/1 aula4/index.html">Aula 4.1</a></button><br>
+        <button><a href="docs/aula4/2 aula4/index.html">Aula 4.2</a></button><br>
+        <button><a href="docs/aula4/3 aula4/index.html">Aula 4.3</a></button><br>
+        <button><a hef="docs/aula4/3 aula4/index.html">Aula 4.4</a></button><br>
+        <button><a href="docs/aula4/4 aula4/index.html">Aula 4.5</a></button><br>
+        <button><a href="docs/aula4/5 aula4/index.html">Aula 4.6</a></button><br>
+        <button><a href="docs/aula4/6 aula4/index.html">Aula 4.7</a></button><br>
+        <button><a href="docs/aula5/exercicio1/index.html">Aula 5.1</a></button><br>
+        </div>
+        <div class="coluna">
+        <button><a href="docs/aula5/exercicio2/index.html">Aula 5.2</a></button><br>
+        <button><a href="docs/aula5/exercicio3/index.html">Aula 5.3</a></button><br>
+        <button><a href="docs/aula6/exercicio1/index1.html">Aula 6.1</a></button><br>
+        <button><a href="docs/aula6/exercicio1/index1.html">Aula 6.2</a></button><br>
+        <button><a href="docs/aula6/exercicio2/index2.html">Aula 6.3</a></button><br>
+        <button><a href="docs/aula6/exercicio3/index3.html">Aula 6.4</a></button><br>
+        <button><a href="docs/aula6/exercicio4/index4.html">Aula 6.5</a></button><br>
+        <button><a href="docs/aula6/exercicio5/index5.html">Aula 6.6</a></button><br>
+        <button><a href="docs/aula7/index.html">Aula 7</a></button><br>
+        <button><a href="docs/aula8/index.html">Aula 8</a></button><br>
+        <button><a href="docs/aula9/exercicio1.html">Aula 9.1</a></button><br>
+        <button><a href="docs/aula9/exercicio2.html">Aula 9.2</a></button><br>
+        <button><a href="docs/aula9/exercicio3.html">Aula 9.3</a></button><br>
+        <button><a href="docs/aula9/exercicio4.html">Aula 9.4</a></button><br>
+        <button><a href="docs/aula9/switch.html">Aula 9.5</a></button><br>
+        </div>
+        <div class="coluna">
+        <button><a href="docs/aula10/index.html">Aula 10</a></button><br>
+        <button><a href="docs/aula11/index.html">Aula 11</a></button><br>
+        <button><a href="docs/aula12/exercicio3/index.html">Aula 12.1</a></button><br>
+        <button><a href="docs/aula12/exercicio5/index.html">Aula 12.2</a></button><br>
+        <button><a href="docs/aula13/exercicio1/index.html">Aula 13</a></button><br>
+        <button><a href="docs/aula14/while3/index.html">Aula 14</a></button><br>
+        <button><a href="docs/aula15/ARRAY2/exercicio3.html">Aula 15.1</a></button><br>
+        <button><a href="docs/aula15/ARRAY2/exercicio4.html">Aula 15.2</a></button><br>
+        <button><a href="docs/aula15/ARRAY2/exercicio5.html">Aula 15.3</a></button><br>
+        <button><a href="docs/aula16/exercicio2/index.html">Aula 16.1</a></button><br>
+        <button><a href="docs/aula16/exercicio5/exercicio5.html">Aula 16.2</a></button><br>
+        <button><a href="docs/aula17/exercicio1/index.html">Aula 17.1</a></button><br>
+        <button><a href="docs/aula17/exercicio1/index.html">Aula 17.2</a></button><br>
+        <button><a href="docs/aula17/exercicio2/index.html">Aula 17.3</a></button><br>
+        <button><a href="docs/aula17/exercicio3/index.html">Aula 17.4</a></button><br>
+        </div>
+        <div class="coluna">          
+        <button><a href="docs/aula17/exercicio4/index.html">Aula 17.5</a></button><br>
+        <button><a href="docs/aula17/exercicio5/index.html">Aula 17.6</a></button><br>
+        <button><a href="docs/aula17/exercicio8/index.html">Aula 17.7</a></button><br>
+        <button><a href="docs/aula18/index.html">Aula 18</a></li></button><br>
+        </div>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados por <strong><a href="https://github.com/brendahidalgos">Brenda Hidalgo</a></strong>.</p>
+    </footer>
 </body>
 </html>
